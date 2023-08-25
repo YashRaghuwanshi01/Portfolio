@@ -1,0 +1,87 @@
+
+/* Responsive Typography */
+@media only screen and (max-width: 768px) {
+  h1 {
+      font-size: 2.5rem;
+  }
+  h2 {
+      font-size: 2rem;
+  }
+  h3 {
+      font-size: 1.5rem;
+  }
+}
+
+/* Custom Font (if you choose to use 'Playfair Display' from Google Fonts) */
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+/* Small tablets and large phones */
+@media (max-width: 767px) {
+  .nav-links {
+      display: none; /* Hide for mobile, use the hamburger menu */
+  }
+
+  #hamburger-nav {
+      display: block; /* Display hamburger menu on smaller screens */
+  }
+
+  .section-container {
+      flex-direction: column; /* Stack sections on top of each other on smaller screens */
+  }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+  h1 {
+      font-size: 2rem;
+  }
+  
+  h2 {
+      font-size: 1.5rem;
+  }
+  
+  h3 {
+      font-size: 1.2rem;
+  }
+  
+  .btn, .details-container, .color-container {
+      width: 100%;
+      margin-bottom: 15px;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 16px; /* Adjust as required */
+    }
+}
+/* GENERAL SETTINGS */
+
+/* RESPONSIVENESS */
+
+@media (max-width: 1024px) {
+  section {
+    padding: 3vh 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+  }
+}
